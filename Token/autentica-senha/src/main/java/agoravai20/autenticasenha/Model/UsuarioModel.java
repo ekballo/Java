@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-public class UsuarioModel {
+@@ -17,6 +18,8 @@ public class UsuarioModel {
     private Integer id;
     @Column(unique = true)
     private String login;
